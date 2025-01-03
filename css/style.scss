@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Maiden+Orange&family=Montserrat&display=swap');
+
+$font-primary: 'Maiden Orange';
+$font-secondary: 'Montserrat';
+
+$color-dark: #212025;
+$color-purpleligth: #D4ADCF;
+$color-purpledark: #8F6692;
+$color-white: #fff;
+$color-firstgradient: linear-gradient(#D4ADCF, #8F6692);
+
+#welcome {
+  padding: 1rem 1rem 0 1rem;
+}
+
+h1 {
+  font-family: $font-primary;
+  color: $color-white;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: $font-primary;
+  color: $color-purpleligth;
+  font-size: 2.5rem;
+}
+p {
+  font-family: $font-primary;
+  color: $color-white;
+  font-size: 2rem;
+}
+
+body {
+  background-color: $color-dark;
+}
+
+button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.7rem;
+  font-family: $font-secondary;
+}
+
+
+.btn-roxo {
+  color: $color-dark;
+  background: $color-firstgradient;
+}
+
+.btn-nobg {
+  color: $color-purpleligth;
+  background-color: transparent;
+}
+
+.imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+  }
+}
