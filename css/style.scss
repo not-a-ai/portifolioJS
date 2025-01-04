@@ -9,18 +9,37 @@ $color-purpledark: #8F6692;
 $color-white: #fff;
 $color-firstgradient: linear-gradient(#D4ADCF, #8F6692);
 
+* {
+  margin: 0;
+  padding: 0;
+}
 #welcome {
   padding: 1rem 1rem 0 1rem;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+#navbar {
+  background-color: linear-gradient($color-dark, transparent);
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+
+}
 h1 {
   font-family: $font-primary;
+  font-weight: 100;
+  font-size: 5em;
   color: $color-white;
-  font-size: 3rem;
 }
 
 h2 {
   font-family: $font-primary;
+  font-weight: 100;
+  font-size: 4rem;
   color: $color-purpleligth;
   font-size: 2.5rem;
 }
@@ -28,6 +47,7 @@ p {
   font-family: $font-primary;
   color: $color-white;
   font-size: 2rem;
+  margin: 1rem 0;
 }
 
 body {
@@ -45,6 +65,7 @@ button {
 .btn-roxo {
   color: $color-dark;
   background: $color-firstgradient;
+  margin: 1rem 0;
 }
 
 .btn-nobg {
@@ -60,7 +81,10 @@ button {
   .logos {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    
+    justify-content: end;
+    img {
+      margin: 1rem;
+    }
   }
 }
+
