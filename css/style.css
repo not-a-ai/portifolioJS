@@ -5,25 +5,29 @@
 }
 
 #welcome {
+  background-color: #212025;
   padding: 1rem 1rem 0 1rem;
   height: 80vh;
+  padding-top: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 #navbar {
-  background-color: linear-gradient(#212025, transparent);
-  position: sticky;
+  position: fixed;
   display: flex;
   justify-content: space-between;
-  margin: 1rem;
+  padding: 1rem;
+  width: 90%;
+  align-items: center;
+  background-color: linear-gradient(#212025, transparent);
 }
 
 h1 {
   font-family: "Maiden Orange";
   font-weight: 100;
-  font-size: 5em;
+  font-size: 4rem;
   color: #fff;
 }
 
@@ -36,21 +40,16 @@ h2 {
 }
 
 p {
-  font-family: "Maiden Orange";
+  font-family: "Montserrat", serif;
   color: #fff;
-  font-size: 2rem;
   margin: 1rem 0;
-}
-
-body {
-  background-color: #212025;
 }
 
 button {
   padding: 0.5rem;
   border: none;
   border-radius: 0.7rem;
-  font-family: "Montserrat";
+  font-family: "Montserrat", serif;
 }
 
 .btn-roxo {
@@ -68,6 +67,7 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 90vw;
 }
 .imgs .logos {
   display: flex;
@@ -76,6 +76,25 @@ button {
 }
 .imgs .logos img {
   margin: 1rem;
+}
+
+#aboutme {
+  background-color: #8F6692;
+  padding: 1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+}
+
+#btn-aboutme {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#btn-aboutme button {
+  margin: 1rem;
+  background-color: linear-gradient(#D4ADCF, #8F6692);
 }
 
 /*# sourceMappingURL=style.css.map */
