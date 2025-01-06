@@ -94,7 +94,11 @@ button {
 }
 #btn-aboutme button {
   margin: 1rem;
-  background-color: linear-gradient(#D4ADCF, #8F6692);
+  background-color: transparent;
+}
+
+#description-aboutme {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
