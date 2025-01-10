@@ -135,4 +135,31 @@ button {
   font-size: 70%;
 }
 
+#help-with {
+  background: #8F6692;
+  padding: 1rem;
+}
+#help-with h2 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+#stacks {
+  background-color: #212025;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#stacks div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+#stacks div > img {
+  padding: 0.5rem;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */

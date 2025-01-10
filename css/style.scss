@@ -153,3 +153,32 @@ button {
     }
   }
 }
+
+
+#help-with {
+  background: $color-purpledark;
+  padding: 1rem;
+  h2 {
+    color: #fff;
+    font-size: 2rem;
+  }
+}
+
+#stacks {
+  background-color: $color-dark;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+  }
+  div > img{
+    padding: 0.5rem;
+    align-items: center;
+    
+  }
+}
