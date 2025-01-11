@@ -3,9 +3,9 @@
 $font-primary: 'Maiden Orange';
 $font-secondary: 'Montserrat', serif;
 
-$color-dark: #212025;
-$color-purpleligth: #D4ADCF;
-$color-purpledark: #8F6692;
+$color-dark: rgb(33,32,37);
+$color-purpleligth: rgb(212,173,207);
+$color-purpledark: rgb(143,102,146);
 $color-white: #fff;
 $color-firstgradient: linear-gradient(#D4ADCF, #8F6692);
 
@@ -28,10 +28,16 @@ $color-firstgradient: linear-gradient(#D4ADCF, #8F6692);
   position: fixed;
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
-  width: 90%;
+  width: 100%;
   align-items: center;
-  background-color: linear-gradient(#212025, #8F6692);
+  background: rgba(33,32,37, 0.8);
+  outline-color: rgba(33,32,37, 0.8);
+  border-bottom-color: rgba(33,32,37, 0.8);
+  img{
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 2rem;
+  }
 }
 h1 {
   font-family: $font-primary;
