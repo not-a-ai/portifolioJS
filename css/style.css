@@ -14,6 +14,14 @@
   justify-content: space-between;
 }
 
+#text-welcome {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
 #navbar {
   position: fixed;
   display: flex;
@@ -43,6 +51,13 @@ h2 {
   font-size: 4rem;
   color: rgb(212, 173, 207);
   font-size: 2.5rem;
+}
+
+h3 {
+  font-family: "Maiden Orange";
+  color: rgb(212, 173, 207);
+  font-weight: 100;
+  font-size: 2rem;
 }
 
 p {
@@ -142,7 +157,7 @@ button {
 }
 
 #help-with {
-  background: rgb(33, 32, 37);
+  background: rgba(33, 32, 37, 0.9);
   padding: 1rem;
   align-items: center;
   display: flex;
@@ -195,6 +210,45 @@ button {
 #stacks div > img {
   padding: 0.5rem;
   align-items: center;
+}
+
+#contact-me {
+  background-color: rgba(33, 32, 37, 0.9);
+  padding: 1rem;
+}
+#contact-me h1 {
+  font-size: 2.5rem;
+  margin: 1rem;
+  text-align: center;
+}
+#contact-me div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contact-me div img {
+  width: 20rem;
+}
+#contact-me div form {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+#contact-me div form input {
+  background-color: transparent;
+  border: none;
+  padding: 1rem;
+}
+
+.line {
+  position: absolute;
+  width: 60%;
+  background-color: #fff;
+  height: 0.1rem;
+}
+
+.line::after {
+  background-color: linear-gradient(#D4ADCF, #8F6692);
 }
 
 /*# sourceMappingURL=style.css.map */
