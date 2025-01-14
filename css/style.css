@@ -255,4 +255,19 @@ button {
   background-color: linear-gradient(#D4ADCF, #8F6692);
 }
 
+footer {
+  background-color: #353236;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+footer p {
+  font-size: 0.5rem;
+}
+footer .logos img {
+  padding: 0.2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
