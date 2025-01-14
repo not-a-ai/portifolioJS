@@ -213,7 +213,7 @@ button {
 }
 
 #contact-me {
-  background-color: rgba(33, 32, 37, 0.9);
+  background-color: rgb(33, 32, 37);
   padding: 1rem;
 }
 #contact-me h1 {
@@ -234,17 +234,21 @@ button {
   flex-direction: column;
   width: 75%;
 }
+#contact-me div form label {
+  font-family: "Montserrat", serif;
+  color: #a7a7a7;
+  padding: 1rem 1rem 0 1rem;
+}
 #contact-me div form input {
   background-color: transparent;
   border: none;
-  padding: 1rem;
 }
 
 .line {
-  position: absolute;
-  width: 60%;
-  background-color: #fff;
-  height: 0.1rem;
+  width: 100%;
+  background-color: #a7a7a7;
+  height: 1.5px;
+  margin-bottom: 1rem;
 }
 
 .line::after {
