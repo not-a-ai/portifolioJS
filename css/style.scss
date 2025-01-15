@@ -91,6 +91,8 @@ button {
   margin: 1rem 0;
 }
 
+
+
 .btn-nobg {
   color: $color-purpleligth;
   background-color: transparent;
@@ -118,7 +120,6 @@ button {
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 60vh
 
   
 }
@@ -132,6 +133,7 @@ button {
     margin: 1rem;
     background-color: transparent;
   }
+
 }
 
 #description-aboutme {
@@ -227,11 +229,15 @@ button {
     justify-content: center;
     flex-wrap: wrap;
     margin: 1rem 0;
-  }
-  div > img{
-    padding: 0.5rem;
-    align-items: center;
-    
+    img{
+      padding: 0.5rem;
+      align-items: center;
+      width: 3rem;
+      transition: transform 0.3s ease, color 0.3s ease, 0.3s ease;
+    }
+    img:hover {
+      transform: translateY(-10px) scale(1.1);
+    }
   }
 }
 
