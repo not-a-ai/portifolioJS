@@ -301,3 +301,52 @@ footer {
     }
   }
 }
+
+@media (width > 1250px) {
+  #welcome {
+    padding: 4rem 4rem 0 4rem;
+    height: 80vh;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  h1 {
+    font-size: 4rem;
+  }
+  
+  h2 {
+    font-size: 4rem;
+  }
+  
+  h3 {
+    font-size: 3rem;
+  }
+  
+  button {
+    padding: 0.7rem;
+    border-radius: 0.9rem;
+    font-size: 1rem;
+  }
+
+  #text-welcome {
+    height: 80%;
+    margin: 1rem;
+  }
+  .imgs {
+    width: fit-content;
+    height: max-content;
+    #myselfft{
+      height: 60vh;
+    }
+    .logos {
+      img {
+        margin: 1rem ;
+        width: 2rem;
+      }
+    }
+  }
+  
+}
