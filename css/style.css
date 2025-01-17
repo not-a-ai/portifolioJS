@@ -298,6 +298,10 @@ footer .logos img {
     border-radius: 0.9rem;
     font-size: 1rem;
   }
+  .sections {
+    padding: 4rem !important;
+    gap: 2rem;
+  }
   #text-welcome {
     height: 80%;
     margin: 1rem;
@@ -312,6 +316,36 @@ footer .logos img {
   .imgs .logos img {
     margin: 1rem;
     width: 2rem;
+  }
+  #project-grid {
+    display: flex;
+    flex-direction: row;
+  }
+  #help-with {
+    padding: 4rem;
+    gap: 2rem;
+  }
+  #help-with #row-cards {
+    display: flex;
+    flex-direction: row;
+  }
+  #help-with h2 {
+    font-size: 3rem;
+  }
+  .flex-row div {
+    width: 20vw;
+  }
+  .flex-row div h3 {
+    font-size: 1.5rem;
+  }
+  .flex-row div p {
+    font-size: 1rem;
+  }
+  #stacks div {
+    gap: 2rem;
+  }
+  #stacks div img {
+    width: 6rem;
   }
 }
 
