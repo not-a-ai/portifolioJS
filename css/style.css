@@ -347,6 +347,19 @@ footer .logos img {
   #stacks div img {
     width: 6rem;
   }
+  #contact-me div {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #contact-me div form {
+    width: 30vw;
+  }
+  footer {
+    height: 8vh;
+  }
+  footer p {
+    font-size: 0.8rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

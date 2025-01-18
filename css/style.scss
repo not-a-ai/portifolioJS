@@ -388,4 +388,19 @@ footer {
       }
     }
   }
+  #contact-me{
+    div{
+      flex-direction: row;
+      justify-content: space-evenly;
+      form{
+        width: 30vw;
+      }
+    }
+  }
+  footer{
+    height: 8vh;
+    p{
+      font-size: 0.8rem;
+    }
+  }
 }
