@@ -139,11 +139,23 @@ button {
   text-align: center;
 }
 #line{
-  width: 1rem;
-  background-color: #353236;
+  position: relative;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 10px;
+}
+#line:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: $color-purpleligth;
 }
 .timeline{
   width: 90vw;
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -156,11 +168,12 @@ button {
     padding: 1rem;
     h3{
       color: #fff;
-      font-size: 1.3rem;
+      font-size: 1.6rem;
     }
     p{
-      font-size: 0.5rem;
+      font-size: 0.8rem;
       margin: 0;
+      color: $color-purpleligth;
     }
   }
   .des-r{
@@ -170,13 +183,14 @@ button {
     text-align: left;
   }
   .btn-date{
-    background-color: #353236;
-    border-radius: 1rem;
-    width: 10vw;
-    padding: 0.4rem 0.8rem;
+    background-color: $color-purpleligth;
+    border-radius: 1.2rem;
+    width: auto;
+    padding: 0.2rem 0.4rem;
     height: max-content;
     font-family: $font-secondary;
-    color: #fff;
+    color: $color-purpledark;
+    text-align: center;
   }
 }
 
